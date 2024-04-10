@@ -29,8 +29,7 @@ while True:
     F_numerator, F_denominator = map(int, input_line.split())
 
     if F_numerator == 1 and F_denominator == 1:
-        break  # 如果輸入為 "1 1"，終止迴圈
+        break  
 
-    # 調用函數並打印路徑
     Stern_Brocot_Tree(F_numerator, F_denominator)
     
